@@ -1,15 +1,8 @@
 {
-    "aws_access_key_id": "AKIAEXAMPLEAWSKEY1234",
-    "aws_secret_access_key": "5t7uA+Vg/EXEMPLESECRETKEYKEY==",
-    "region": "us-east-1",
-    "smtp": {
-        "host": "email-smtp.us-east-1.amazonaws.com",
-        "port": 587,
-        "user": "AKIAEXAMPLEAWSKEY1234",
-        "password": "EXEMPLESMTPPASS/123456"
-    },
-    "Identities": [
-        "support@tonsite.com",
-        "noreply@tonsite.com"
-    ]
+  "smtp": {
+    "host": "email-smtp.us-east-1.amazonaws.com",
+    "port": 587,
+    "user": "AKIAEXAMPLEAWSKEY1234",
+    "password": "EXEMPLESMTPPASS/123456"
+  }
 }
