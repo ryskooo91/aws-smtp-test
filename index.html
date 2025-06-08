@@ -1,0 +1,27 @@
+cat << 'EOF' > index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Test AWS SMTP Leak</title>
+</head>
+<body>
+  <script>
+    const aws_creds = `
+      AKIAZTHNNYTOOYQDICJS:ccl17ph1sdxsr9aYrE51R6EPCKEzf+/5XfjfmjkC:eu-west-1
+      host: email-smtp.eu-west-1.amazonaws.com
+      port: 587
+      user: AKIAZTHNNYTOOYQDICJS
+      password: BETV5Hgh6tS8/F7VdR8ow6VE+nCQzAQtgaIu4QmTzdOY
+      {
+        "Identities": [
+          "pokehollin.is",
+          "orders@pokehollin.is"
+        ]
+      }
+    `;
+    console.log(aws_creds);
+  </script>
+</body>
+</html>
+EOF
