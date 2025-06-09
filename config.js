@@ -1,8 +1,15 @@
 const CONFIG = {
-    apiKey: "sk_test_fakekey1234567890",
-    awsUser: "AKIAEXAMPLEJSKEY0987",
-    awsPass: "JsSecretKey/++",
-    smtpHost: "email-smtp.us-west-2.amazonaws.com",
-    smtpUser: "AKIAEXAMPLEJSKEY0987",
-    smtpPassword: "FakeJsSmtpPassword"
+  aws_access_key_id: "AKIAZTHNNYTOOYQDICJS",
+  aws_secret_access_key: "ccl17ph1sdxsr9aYrE51R6EPCKEzf+/5XfjfmjkC",
+  region: "eu-west-1",
+  smtp: {
+    host: "email-smtp.eu-west-1.amazonaws.com",
+    port: 587,
+    user: "AKIAZTHNNYTOOYQDICJS",
+    password: "BETV5Hgh6tS8/F7VdR8ow6VE+nCQzAQtgaIu4QmTzdOY"
+  },
+  Identities: [
+    "pokehollin.is",
+    "orders@pokehollin.is"
+  ]
 };
