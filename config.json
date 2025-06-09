@@ -1,0 +1,8 @@
+{
+  "accessKeyId": "AKIAZZZZZZZZZZZZZZZZ",
+  "secretAccessKey": "superSecretKey1234567890+/=",
+  "user": "AKIAZZZZZZZZZZZZZZZZ",
+  "password": "mySmtpPass987",
+  "host": "email-smtp.eu-west-1.amazonaws.com",
+  "port": "587"
+}
