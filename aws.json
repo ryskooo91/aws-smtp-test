@@ -1,8 +1,15 @@
 {
+  "aws_access_key_id": "AKIAZTHNNYTOOYQDICJS",
+  "aws_secret_access_key": "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",
+  "region": "eu-west-1",
   "smtp": {
-    "host": "email-smtp.us-east-1.amazonaws.com",
+    "host": "email-smtp.eu-west-1.amazonaws.com",
     "port": 587,
-    "user": "AKIAEXAMPLEAWSKEY1234",
-    "password": "EXEMPLESMTPPASS/123456"
-  }
+    "user": "AKIAZTHNNYTOOYQDICJS",
+    "password": "BETV5Hgh6tS8/F7VdR8ow6VE+nCQzAQtgaIu4QmTzdOY"
+  },
+  "Identities": [
+    "pokehollin.is",
+    "orders@pokehollin.is"
+  ]
 }
