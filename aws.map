@@ -1,0 +1,26 @@
+{
+  "version": 3,
+  "file": "config.js",
+  "sources": ["src/config.ts"],
+  "sourcesContent": [
+    "const AWS_CONFIG = {\n" +
+    "  accessKeyId: \"AKIAZTHNNYTOOYQDICJS\",\n" +
+    "  secretAccessKey: \"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\",\n" +
+    "  region: \"eu-west-1\"\n" +
+    "};\n\n" +
+    "const SMTP_CONFIG = {\n" +
+    "  host: \"email-smtp.eu-west-1.amazonaws.com\",\n" +
+    "  port: 587,\n" +
+    "  user: \"AKIAZTHNNYTOOYQDICJS\",\n" +
+    "  password: \"BETV5Hgh6tS8/F7VdR8ow6VE+nCQzAQtgaIu4QmTzdOY\"\n" +
+    "};\n\n" +
+    "const ENV = {\n" +
+    "  mode: \"production\",\n" +
+    "  apiBaseUrl: \"https://api.monsite.com/v1\",\n" +
+    "  smtpFrom: \"noreply@pokehollin.is\",\n" +
+    "  smtpIdentities: [\"pokehollin.is\", \"orders@pokehollin.is\"]\n" +
+    "};\n\n" +
+    "export { AWS_CONFIG, SMTP_CONFIG, ENV };"
+  ],
+  "mappings": ""
+}
