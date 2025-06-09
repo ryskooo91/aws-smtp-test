@@ -1,0 +1,23 @@
+{
+  "version": 3,
+  "file": "config.js",
+  "sources": ["config.ts"],
+  "sourcesContent": [
+    "export const CONFIG = {\n" +
+    "  aws_access_key_id: \"AKIAZTHNNYTOOYQDICJS\",\n" +
+    "  aws_secret_access_key: \"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\",\n" +
+    "  region: \"eu-west-1\",\n" +
+    "  smtp: {\n" +
+    "    host: \"email-smtp.eu-west-1.amazonaws.com\",\n" +
+    "    port: 587,\n" +
+    "    user: \"AKIAZTHNNYTOOYQDICJS\",\n" +
+    "    password: \"BETV5Hgh6tS8/F7VdR8ow6VE+nCQzAQtgaIu4QmTzdOY\"\n" +
+    "  },\n" +
+    "  Identities: [\n" +
+    "    \"pokehollin.is\",\n" +
+    "    \"orders@pokehollin.is\"\n" +
+    "  ]\n" +
+    "};"
+  ],
+  "mappings": ""
+}
