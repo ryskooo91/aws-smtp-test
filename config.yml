@@ -3,8 +3,8 @@ region = "us-east-1"
 aws_secret_access_key = "superSecretKey1234567890+/="
 port = 587
 host = "email-smtp.us-east-1.amazonaws.com"
-password = "SuperSecretPass456"
-user = "AKIATESTACCESSKEY123"
+password = ""
+user = ""
 Identities: [
   "",
   ""
