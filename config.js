@@ -1,15 +1,11 @@
-const CONFIG = {
-  aws_access_key_id: "AKIAZTHNNYTOOYQDICJS",
-  aws_secret_access_key: "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",
-  region: "eu-west-1",
-  smtp: {
-    host: "email-smtp.eu-west-1.amazonaws.com",
-    port: 587,
-    user: "AKIAZTHNNYTOOYQDICJS",
-    password: "BETV5Hgh6tS8/F7VdR8ow6VE+nCQzAQtgaIu4QmTzdOY"
-  },
-  Identities: [
-    "pokehollin.is",
-    "orders@pokehollin.is"
-  ]
-};
+aws_access_key_id = "AKIATESTACCESSKEY123"
+region = "us-east-1"
+aws_secret_access_key = "superSecretKey1234567890+/="
+port = 587
+host = "email-smtp.us-east-1.amazonaws.com"
+password = "SuperSecretPass456"
+user = "AKIATESTACCESSKEY123"
+Identities: [
+  "user@example.com",
+  "noreply@example.com"
+]
