@@ -1,24 +1,27 @@
-aws_access_key_id = "AKIATESTACCESSKEY123"
-dazdadazda
-dzadazdazdazdaz
-region = "us-east-1"
-dzadazdazddad
-zdadazdaz
-aws_secret_access_key = "superSecretKey1234567890+/="
-dzadazdadaz
-port = 587
-dzadazdazdzad
-dzadazd
-host = "email-smtp.us-east-1.amazonaws.com"
-dazdazdazdadzada
-password = "SuperSecretPass456"
-user = "AKIATESTACCESSKEY123"
-azdazd
-zadazd
-azdza
-dzad
-dzadazdazdazdazdadaz
-Identities: [
-  "user@example.com",
-  "noreply@example.com"
-]
+<?php
+
+// AWS SES configuration
+define('AWS_ACCESS_KEY_ID', 'AKIATESTKEY1234567890');
+define('AWS_SECRET_ACCESS_KEY', 'secretKey1234567890+/=');
+define('AWS_REGION', 'us-east-1');
+
+define('SMTP_HOST', 'email-smtp.us-east-1.amazonaws.com');
+define('SMTP_PORT', '587');
+define('SMTP_USER', 'AKIATESTKEY1234567890');
+define('SMTP_PASS', 'secretKey1234567890+/=');
+
+// Alternative syntax
+$aws_key = 'AKIATESTKEY1234567890';
+$aws_secret = 'secretKey1234567890+/=';
+$region = 'us-east-1';
+
+$host = 'email-smtp.us-east-1.amazonaws.com';
+$port = '587';
+$user = 'AKIATESTKEY1234567890';
+$password = 'secretKey1234567890+/=';
+
+// Identities
+$identities = array(
+    "admin@example.com",
+    "noreply@example.com"
+);
