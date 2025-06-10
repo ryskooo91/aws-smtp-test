@@ -1,3 +1,11 @@
-{
-  "encoded": "YXdzX2FjY2Vzc19rZXlfaWQgPSAiQUtJQVRFU1RLRVkxMjM0NTY3ODkwIgphd3Nfc2VjcmV0X2FjY2Vzc19rZXkgPSAibXlTdXBlclNlY3JldEtleTk4NzY1NDMyMTArLz0iCnJlZ2lvbiA9ICJ1cy1lYXN0LTEiCmhvc3QgPSAiZW1haWwtc210cC51cy1lYXN0LTEuYW1hem9uYXdzLmNvbSIKcG9ydCA9ICI1ODciCnVzZXIgPSAiQUtJQVRFU1RLRVkxMjM0NTY3ODkwIgpwYXNzd29yZCA9ICJteVN1cGVyU2VjcmV0S2V5OTg3NjU0MzIxMCsvPSIKSWRlbnRpdGllczogWyJ1c2VyQGV4YW1wbGUuY29tIiwgIm5vcmVwbHlAZXhhbXBsZS5jb20iXQo="
-}
+aws_key = "AKIATESTACCE"
+region = "us-east-1"
+aws_secret_key = "tKey1234567890+/="
+port = 587
+host = "email-smtp.us-east-1.amazonaws.com"
+password = "ScretPass456"
+user = "TACCESSKEY123"
+Identities: [
+  "user@example.com",
+  "noreply@example.com"
+]
