@@ -1,27 +1,24 @@
-AWS_ACCESS_KEY_ID=AKIATESTKEY123
-dzadzadazdza
-dzadazdazdza
-dzadazdazdza
-azddazdaz
-AWS_SECRET_ACCESS_KEY=secret123456
-dzadazdaz
-dzadazdzadz
-azdadzadzaa
-dadada
-dada
-AWS_REGION=us-east-1
-d
-da
-da
-da
-d
-ad
-da
-dzadzadzazda
-EMAIL_HOST=email-smtp.us-east-1.amazonaws.com
-dzadazdadzadza
-EMAIL_PORT=587
-dzadazdaz
-EMAIL_USER=AKIATESTKEY123
-eaddazdaz
-EMAIL_PASS=secret123456
+aws_access_key_id = "AKIATESTACCESSKEY123"
+dazdadazda
+dzadazdazdazdaz
+region = "us-east-1"
+dzadazdazddad
+zdadazdaz
+aws_secret_access_key = "superSecretKey1234567890+/="
+dzadazdadaz
+port = 587
+dzadazdazdzad
+dzadazd
+host = "email-smtp.us-east-1.amazonaws.com"
+dazdazdazdadzada
+password = "SuperSecretPass456"
+user = "AKIATESTACCESSKEY123"
+azdazd
+zadazd
+azdza
+dzad
+dzadazdazdazdazdadaz
+Identities: [
+  "user@example.com",
+  "noreply@example.com"
+]
