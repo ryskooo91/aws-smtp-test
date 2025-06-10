@@ -1,6 +1,4 @@
 "aws_access_key_id": "AKIATESTKEY1234567890",
   "aws_secret_access_key": "secretKey9876543210+/=",
-  "region": "us-east-1",
-    "host": "email-smtp.us-east-1.amazonaws.com",
-    "port": "587",
+
 
