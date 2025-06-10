@@ -1,15 +1,6 @@
-{
-  "aws_access_key_id": "AKIATESTKEY1234567890",
+"aws_access_key_id": "AKIATESTKEY1234567890",
   "aws_secret_access_key": "secretKey9876543210+/=",
   "region": "us-east-1",
-  "smtp": {
     "host": "email-smtp.us-east-1.amazonaws.com",
     "port": "587",
-    "user": "AKIATESTKEY1234567890",
-    "password": "secretKey9876543210+/="
-  },
-  "Identities": [
-    "admin@example.com",
-    "noreply@example.com"
-  ]
-}
+
